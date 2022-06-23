@@ -1,12 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-  text-decoration: none;
-}
-
 header {
   width: 100%;
   height: 70px;
@@ -16,7 +8,7 @@ header {
 }
 
 html {
-  background-color: #ffffff;
+  background-color: #fff;
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -45,7 +37,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #ffffff;
+  background-color: #fff;
   border-radius: 20px;
   border: 3px solid;
 }
@@ -126,7 +118,7 @@ nav .content .links {
 
 .wrapper .search-icon,
 .wrapper .menu-icon {
-  color: rgb(255, 255, 255);
+  color: #fff;
   font-size: 18px;
   cursor: pointer;
   line-height: 70px;
@@ -374,51 +366,6 @@ nav .content .links {
   position: fixed;
 }
 
-/* MAIN */
-.containermain {
-  width: 1000px;
-  height: 3500px;
-  background: #fff;
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  border-radius: 25px;
-  margin-top: 150px;
-  position: relative;
-  left: 150px;
-}
-.containermain .containermain__tittle {
-  text-align: center;
-  font-size: 50px;
-  font-weight: 900;
-  margin-top: 10px;
-}
-.containermain .containermain__navcont {
-  position: relative;
-  color: black;
-  margin-top: 50px;
-  margin-left: 50px;
-  margin-bottom: 100px;
-}
-.containermain .containermain__navcont .containermain__nav__li {
-  font-size: 20px;
-}
-.containermain .containermain__subtittles {
-  position: relative;
-  margin-top: 20px;
-  text-align: center;
-  font-size: 25px;
-  margin-bottom: 20px;
-}
-
-.containermain__text {
-  text-align: center;
-  padding-left: 150px;
-  padding-right: 150px;
-}
-
 /* FOOTER */
 .divf {
   width: 100%;
@@ -452,7 +399,7 @@ ul {
 
 .footer-col h4 {
   font-size: 18px;
-  color: #ffffff;
+  color: #fff;
   text-transform: capitalize;
   margin-bottom: 35px;
   font-weight: 500;
@@ -464,7 +411,7 @@ ul {
   position: absolute;
   left: 0;
   bottom: -10px;
-  background-color: #e91e63;
+  background-color: #AF125E;
   height: 2px;
   box-sizing: border-box;
   width: 50px;
@@ -477,7 +424,7 @@ ul {
 .footer-col ul li a {
   font-size: 16px;
   text-transform: capitalize;
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
   font-weight: 300;
   color: #bbbbbb;
@@ -486,7 +433,7 @@ ul {
 }
 
 .footer-col ul li a:hover {
-  color: #ffffff;
+  color: #fff;
   padding-left: 8px;
 }
 
@@ -499,13 +446,13 @@ ul {
   text-align: center;
   line-height: 40px;
   border-radius: 50%;
-  color: #ffffff;
+  color: #fff;
   transition: all 0.5s ease;
 }
 
 .footer-col .social-links a:hover {
   color: #24262b;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 /*responsive*/
@@ -529,5 +476,59 @@ ul {
 
 .footer__p a {
   text-decoration: none;
-  color: white;
+  color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+/* MAIN */
+.containermain {
+  width: 1000px;
+  height: 3500px;
+  background: #fff;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 25px;
+  margin-top: 150px;
+  position: relative;
+  left: 150px;
+}
+.containermain .containermain__tittle {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 900;
+  margin-top: 10px;
+  color: #AF125E;
+}
+.containermain__navcont {
+  position: relative;
+  color: black;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-bottom: 100px;
+}
+.containermain__navcont__nav__li {
+  font-size: 20px;
+}
+.containermain__subtittles {
+  position: relative;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.containermain__text {
+  text-align: center;
+  padding-left: 150px;
+  padding-right: 150px;
 }/*# sourceMappingURL=main.css.map */
