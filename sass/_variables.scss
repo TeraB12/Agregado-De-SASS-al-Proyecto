@@ -1,3 +1,11 @@
-$color-principal: #fff;
-$color-logo: #AF125E;
-$color-oscuro: rgb(46, 46, 46);
+// $color-principal: #fff;
+// $color-logo: #AF125E;
+// $color-oscuro: rgb(46, 46, 46);
+
+
+$palette: (
+    'color-principal': #fff,
+    'color-logo': #AF125E,
+    'color-oscuro': rgb(46, 46, 46),
+    'color-negro': rgb(0, 0, 0),
+)

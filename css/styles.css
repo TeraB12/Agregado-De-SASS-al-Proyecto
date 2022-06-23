@@ -18,7 +18,7 @@ html {
 main {
   background-color: #fff;
   width: 100%;
-  height: 3800px; }
+  height: 8600px; }
 
 body {
   display: flex;
@@ -50,7 +50,7 @@ body::-webkit-scrollbar-thumb {
 .wrapper {
   position: fixed;
   width: 100%;
-  background: linear-gradient(-135deg, #AF125E, #AF125E);
+  background: #AF125E;
   z-index: 2; }
 
 .wrapper nav {
@@ -74,7 +74,7 @@ nav .content .links {
   max-width: 100%;
   font-size: 30px;
   font-weight: 600;
-  color: #000000;
+  color: black;
   margin-right: 250px; }
 
 .content .links li {
@@ -95,7 +95,7 @@ nav .content .links {
 
 .content .links li a:hover,
 .content .links li label:hover {
-  background: linear-gradient(-135deg, #AF125E, rgba(255, 255, 255, 0.63)); }
+  background: linear-gradient(-135deg, , rgba(255, 255, 255, 0.63)); }
 
 .wrapper .search-icon,
 .wrapper .menu-icon {
@@ -128,7 +128,7 @@ nav .content .links {
 .search-box input {
   width: 50%;
   height: 50%;
-  border: #000000;
+  border: black;
   border-radius: 50px;
   outline: none;
   font-size: 17px;
@@ -379,6 +379,26 @@ ul {
   text-decoration: none;
   color: #fff; }
 
+.article > h5 {
+  color: red; }
+
+.containermain__container__article, .article {
+  margin: 5px 5px; }
+
+.containermain__subtittles1, .article > h3, .article > h5 {
+  color: black;
+  position: relative;
+  margin-top: 20px;
+  text-align: left;
+  font-size: 20px;
+  margin-bottom: 20px; }
+
+.containermain__text, .article > p {
+  text-align: left;
+  padding-left: 50px;
+  padding-right: 150px;
+  padding-top: 10px; }
+
 * {
   margin: 0;
   padding: 0;
@@ -389,7 +409,7 @@ ul {
 /* MAIN */
 .containermain {
   width: 1000px;
-  height: 3500px;
+  height: 8300px;
   background: #fff;
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(20px);
@@ -404,7 +424,7 @@ ul {
     text-align: center;
     font-size: 50px;
     font-weight: 900;
-    margin-top: 10px;
+    margin-top: 40px;
     color: #AF125E; }
   .containermain__navcont {
     position: relative;
@@ -414,14 +434,27 @@ ul {
     margin-bottom: 100px; }
     .containermain__navcont__nav__li {
       font-size: 20px; }
-  .containermain__subtittles {
+  .containermain__subtittles1, .article > h3, .article > h5 {
+    color: #000000;
     position: relative;
     margin-top: 20px;
-    text-align: center;
-    font-size: 25px;
+    text-align: left;
+    font-size: 20px;
     margin-bottom: 20px; }
-
-.containermain__text {
-  text-align: center;
-  padding-left: 150px;
-  padding-right: 150px; }
+  .containermain__subtittles2 {
+    color: #FF0000;
+    position: relative;
+    margin-top: 20px;
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 20px; }
+  .containermain__text, .article > p {
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 150px;
+    padding-top: 10px; }
+  .containermain__ul {
+    padding-left: 10px;
+    padding-top: 20px; }
+  .containermain__li {
+    padding-top: 25px; }

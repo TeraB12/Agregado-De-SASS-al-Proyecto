@@ -6,6 +6,19 @@
 
 @import "_footer.scss";
 
+@import "_base.scss";
+
+@import "_articulo.scss";
+
+@mixin subtittles ($colores) {
+    color: $colores;
+    position: relative;
+    margin-top: 20px;
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -19,8 +32,8 @@
 
 .containermain{
     width: 1000px;
-    height: 3500px;
-    background: $color-principal;
+    height: 8300px;
+    background: map-get($map: $palette, $key: 'color-principal' );
 box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 backdrop-filter: blur( 20px );
 -webkit-backdrop-filter: blur( 20px );
@@ -35,13 +48,13 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
         text-align: center;
         font-size: 50px;
         font-weight: 900;
-        margin-top: 10px;
-        color: $color-logo;
+        margin-top: 40px;
+        color: map-get($map: $palette, $key: 'color-logo' );
     }
     
     &__navcont{
        position: relative;
-       color: black;
+       color: map-get($map: $palette, $key: 'color-negro' );
        margin-top: 50px;
        margin-left: 50px;
        margin-bottom: 100px;
@@ -51,17 +64,27 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
        }
     }
     
-    &__subtittles{
-        position: relative;
-        margin-top: 20px;
-        text-align: center;
-        font-size: 25px;
-        margin-bottom: 20px;
-    }
-}
 
-.containermain__text{
-    text-align: center;
-    padding-left: 150px;
-    padding-right: 150px;
+    &__subtittles1{
+        @include subtittles(#000000)
+    }
+
+    &__subtittles2{
+        @include subtittles(#FF0000)
+    }
+    
+    &__text{
+        text-align: left;
+        padding-left: 50px;
+        padding-right: 150px;
+        padding-top: 10px;
+    }
+    &__ul {
+        padding-left: 10px;
+        padding-top: 20px;
+    }
+    
+    &__li{
+        padding-top: 25px;
+    }
 }

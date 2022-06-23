@@ -1,0 +1,13 @@
+.article{
+    @extend .containermain__container__article;
+    >h3 {
+        @extend .containermain__subtittles1; 
+    }
+    >p {
+        @extend.containermain__text;
+    }
+    >h5 {
+        @extend.containermain__subtittles1;
+        color: red;
+    }
+}
