@@ -1,1 +1,0 @@
-Sass está aplicado en roleplay/normativas y los 6 archivos html que se encuentran dentro. Respecto al css está aplicado en css/styles.css EN LA PARTE DEL MAIN.
