@@ -38,9 +38,7 @@ body::-webkit-scrollbar-thumb {
 .grid-container {
   display: grid;
   gap: 10px;
-  grid-template-areas: "header"
- "main"
- "footer";
+  grid-template-areas: "header" "main" "footer";
   grid-template: "header" 0.5fr "main" auto "footer" 0.3fr; }
 
 .header {
@@ -460,27 +458,3 @@ ul {
     padding-top: 20px; }
   .containermain__li {
     padding-top: 25px; }
-
-
-
-    @media screen and (max-width: 480px){
-      .containermain{
-        width: 325px;
-        height: 16000px;
-        left: 25px;
-      }
-      .containermain .containermain__tittle{
-        font-size: 35px;
-      }
-
-      main{
-        height: 16200px;
-      }
-
-      .containermain__text, .article > p{
-        text-align: left;
-        padding-left: 10px;
-        padding-right: 20px;
-        padding-top: 10px;
-    }
-  }
