@@ -596,6 +596,14 @@ nav .content .links {
   }
 }
 
+@media screen and (max-width: 768px){
+  .section__h2--2{
+    position: relative;
+    left: 125px;
+  }
+}
+
+
 
 
 /* CUENTA REGRESIVA */
@@ -667,6 +675,7 @@ nav .content .links {
   }
 }
 
+
 .containers2 {
   width: 700px;
   height: 400px;
@@ -682,6 +691,17 @@ nav .content .links {
   }
 }
 
+@media screen and (max-width: 768px){
+  .containers2{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1168px){
+  .containers2{
+    display: none;
+  }
+}
 
 .container2__h1 {
   margin-top: 5px;
