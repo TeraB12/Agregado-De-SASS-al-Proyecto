@@ -27,6 +27,12 @@ header {
   grid-area: header;
 }
 
+@media screen and (max-width: 480px){
+  .headertienda{
+    height: 230vh;
+  }
+}
+
 .headernormas {
   background-image: url(../assets/fondonorm.jpg);
   width: 100%;
@@ -35,6 +41,12 @@ header {
   background-position: center;
   background-size: cover;
   grid-area: header;
+}
+
+@media screen and (max-width: 480px){
+  .headernormas{
+    height: 250vh;
+  }
 }
 
 html {
@@ -490,7 +502,11 @@ nav .content .links {
   text-align: center;
   font-size: 40px;
 }
-
+@media screen and (max-width: 480px){
+  .main__h1{
+    font-size: 30px;
+  }
+}
 .section__box {
   display: flex;
   justify-content: center;
@@ -506,6 +522,13 @@ nav .content .links {
   -webkit-backdrop-filter: blur(1.5px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+@media screen and (max-width: 480px){
+  .main__container--actualizaciones{
+    width: 350px;
+    height: 700px;
+  }
 }
 
 .container__h1 {
@@ -565,7 +588,13 @@ nav .content .links {
   color: #AF125E;
 }
 
-
+@media screen and (max-width: 480px){
+  .section__h2--2{
+    font-size: 25px;
+    position: relative;
+    left: -30px;
+  }
+}
 
 
 
@@ -632,6 +661,12 @@ nav .content .links {
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
+@media screen and (max-width: 480px){
+  .containers{
+    width: 275px;
+  }
+}
+
 .containers2 {
   width: 700px;
   height: 400px;
@@ -639,6 +674,12 @@ nav .content .links {
   background-position: center;
   background-image: url(../assets/1920x1080-px-Grand-Theft-Auto-V-995840-wallhere.com.jpg);
   border-radius: 20px;
+}
+
+@media screen and (max-width: 480px){
+  .containers2{
+    display: none;
+  }
 }
 
 
@@ -836,6 +877,13 @@ ul {
 
 }
 
+@media screen and (max-width: 480px){
+  .wrapper3{
+    top: 100px;
+    margin-top: 50px;
+  }
+}
+
 .card8__h1 {
   position: absolute;
   bottom: 330px;
@@ -960,6 +1008,12 @@ ul {
   transform-style: preserve-3d;
   perspective: 1000px;
   margin-top: 25px;
+}
+
+@media screen and (max-width: 480px){
+  .wrapper4{
+    width: 360px;
+  }
 }
 
 .card1__h1 {

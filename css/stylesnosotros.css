@@ -17,6 +17,12 @@ header {
   background-size: cover;
 }
 
+@media screen and (max-width: 480px){
+  header {
+   height: 250vh;
+  }
+}
+
 body {
   display: flex;
   flex-direction: column;
