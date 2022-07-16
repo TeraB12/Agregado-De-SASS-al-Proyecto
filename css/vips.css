@@ -48,7 +48,19 @@
     background-position: center;
     background-size: cover;
   }
+
+  @media screen and (max-width: 1024px){
+    .header{
+      height: 120vh;
+    }
+  }
   
+  @media screen and (max-width: 768px){
+    .header{
+      height: 200vh;
+    }
+  }
+
   @media screen and (max-width: 480px){
     .header{
       height: 300vh;
@@ -383,6 +395,25 @@
     top: 150px;
     transform-style: preserve-3d;
     perspective: 1000px;
+  }
+
+  @media screen and (max-width: 1024px){
+    .wrapper3{
+      top: 100px;
+      margin-top: 50px;
+    }
+  }
+  
+  @media screen and (max-width: 768px){
+    .wrapper3{
+      height: 400px;
+      width: 280px;
+      position: relative;
+      top: 150px;
+      transform-style: preserve-3d;
+      perspective: 1000px;
+      margin-bottom: 70px;
+    }
   }
 
   @media screen and (max-width: 480px){

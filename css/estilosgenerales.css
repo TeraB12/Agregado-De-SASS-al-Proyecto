@@ -27,9 +27,27 @@ header {
   grid-area: header;
 }
 
+@media screen and (max-width: 1024px){
+  .headertienda {
+    background-image: url(../assets/dia.jpg);
+    width: 100%;
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-area: header;
+  }
+}
+
 @media screen and (max-width: 480px){
   .headertienda{
     height: 230vh;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .headertienda{
+    height: 200vh;
   }
 }
 
@@ -41,6 +59,30 @@ header {
   background-position: center;
   background-size: cover;
   grid-area: header;
+}
+
+@media screen and (max-width: 1024px){
+  .headernormas {
+    background-image: url(../assets/fondonorm.jpg);
+    width: 100%;
+    height: 150vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-area: header;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .headernormas {
+    background-image: url(../assets/fondonorm.jpg);
+    width: 100%;
+    height: 270vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-area: header;
+  }
 }
 
 @media screen and (max-width: 480px){
@@ -590,9 +632,7 @@ nav .content .links {
 
 @media screen and (max-width: 480px){
   .section__h2--2{
-    font-size: 25px;
-    position: relative;
-    left: -30px;
+display: none;
   }
 }
 
@@ -603,6 +643,11 @@ nav .content .links {
   }
 }
 
+@media screen and (max-width: 1024px){
+  .section__h2--2{
+    display: none;
+  }
+}
 
 
 
@@ -894,7 +939,18 @@ ul {
   top: 200px;
   transform-style: preserve-3d;
   perspective: 1000px;
+}
 
+@media screen and (max-width: 768px){
+  .wrapper3 {
+    height: 400px;
+    width: 320px;
+    position: relative;
+    top: 200px;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    margin-bottom: 70px;
+  }
 }
 
 @media screen and (max-width: 480px){
@@ -1028,6 +1084,18 @@ ul {
   transform-style: preserve-3d;
   perspective: 1000px;
   margin-top: 25px;
+}
+
+@media screen and (max-width: 1024px){
+  .wrapper4{
+    width: 320px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .wrapper4{
+    width: 360px;
+  }
 }
 
 @media screen and (max-width: 480px){
